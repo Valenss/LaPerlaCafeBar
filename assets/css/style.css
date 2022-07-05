@@ -53,7 +53,10 @@
     --smaller-font-size: .813rem;
   }
 }
-
+@font-face{
+  font-family: 'Rossetti';
+  src: url('../fonts/rosssetti/Rossetti W00 Regular/@font-face/96996b95c19ecf8733387b6c0b2311e3.ttf');
+}
 
 /* Base */
 *,
@@ -65,6 +68,8 @@
 html {
   scroll-behavior: smooth;
 }
+
+
 
 body.dark-theme {
   --title-color: #f1f3f2;
@@ -104,10 +109,7 @@ p,
 ul {
   margin: 0;
 }
-@font-face{
-  font-family: 'Rossetti';
-  src: url('../fonts/rosssetti/Online_Web_Fonts.url');
-}
+
 h1, h2{
   font-family: 'Rossetti', sans-serif;
 }
