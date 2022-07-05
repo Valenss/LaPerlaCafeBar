@@ -106,7 +106,7 @@ ul {
 }
 @font-face{
   font-family: 'Rossetti';
-  src: url('//db.onlinewebfonts.com/c/96996b95c19ecf8733387b6c0b2311e3?family=Rossetti');
+  src: url('../fonts/rosssetti/Online_Web_Fonts.url');
 }
 h1, h2{
   font-family: 'Rossetti', sans-serif;
