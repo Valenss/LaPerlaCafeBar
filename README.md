@@ -41,9 +41,10 @@ Realizar y presentar para su evaluación, el primer trabajo práctico integrador
 
 ### Hecho con
 
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML5
+- CSS
 - Flexbox
+- Grid
 - Bootstrap
 - Scroll Reveal JS Library
 
