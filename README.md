@@ -1,17 +1,17 @@
 # Hola! Bienvenido a mi proyecto del primer cuatrimestre de UNTREF👋
 
-## Table of contents
+## Tabla de contenido
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
+- [Vista General](#overview)
+  - [El desafio](#el-desafio)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
-  - [Built with](#built-with)
+  - [Hecho con](#hecho-con)
 - [Author](#author)
 
 
-## Overview
+## Vista General
 
 ### El objetivo del proyecto:
 Realizar y presentar para su evaluación, el primer trabajo práctico integrador en concordancia a los conocimientos adquiridos hasta el momento.
@@ -39,7 +39,7 @@ Realizar y presentar para su evaluación, el primer trabajo práctico integrador
 
 - Live Site URL: [https://valenss.github.io/LaPerlaCafeBar/)
 
-### Built with
+### Hecho con
 
 - Semantic HTML5 markup
 - CSS custom properties
