@@ -33,7 +33,8 @@ Realizar y presentar para su evaluación, el primer trabajo práctico integrador
 
 ### Screenshot
 
-![](./design/mySolution.png)
+![](./assets/img/previews/valenss.github.io_LaPerlaCafeBar_(iPhone%2012%20Pro)%20(3).png)
+![](./assets/img/previews/valenss.github.io_LaPerlaCafeBar_(iPhone%2012%20Pro)%20(4).png
 
 ### Links
 
