@@ -378,6 +378,7 @@ img {
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
+  max-width: 1200px;
 }
 
 .testimonial__box {
