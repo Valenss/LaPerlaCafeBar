@@ -465,7 +465,7 @@ img {
   font-style: italic;
 }
 .form-horizontal {
-  max-width: 400px;
+  max-width: 390px;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
 
@@ -473,11 +473,12 @@ img {
 
 .form-control, 
 textarea {
-  max-width: 400px;
+  max-width: 390px;
   background-color: var(--container-color);
   color: var(--text-color);
   letter-spacing: 1px;
   margin-top: .5rem;
+  max-height: 200px;
 
 }
 
@@ -491,7 +492,7 @@ input:focus , textarea:focus{
 .send-button {
   margin-top: 15px;
   height: 34px;
-  width: 400px;
+  width: 390px;
   overflow: hidden;
   transition: all .2s ease-in-out;
   background-color:var(--first-color)!important ;
@@ -504,7 +505,7 @@ input:focus , textarea:focus{
 }
 
 .alt-send-button {
-  width: 400px;
+  width: 390px;
   height: 34px;
   transition: all .2s ease-in-out;
 }
