@@ -32,11 +32,11 @@ Realizar y presentar para su evaluación, el primer trabajo práctico integrador
 
 
 ### Screenshot
-Light Mode
-![](./assets/img/previews/valenss.github.io_LaPerlaCafeBar_(iPhone%2012%20Pro)%20(3).png)
+##Light Mode
+<img src="./assets/img/previews/valenss.github.io_LaPerlaCafeBar_(iPhone%2012%20Pro)%20(3).png" width="350" alt="accessibility text">
 
-Dark Mode
-![](./assets/img/previews/valenss.github.io_LaPerlaCafeBar_(iPhone%2012%20Pro)%20(4).png)
+##Dark Mode
+<img src="./assets/img/previews/valenss.github.io_LaPerlaCafeBar_(iPhone%2012%20Pro)%20(4).png" width="350" alt="accessibility text">
 
 ### Links
 
