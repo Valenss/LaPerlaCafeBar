@@ -54,7 +54,7 @@
   }
 }
 @font-face{
-  font-family: 'Rossettii';
+  font-family: 'Rossetti';
   src: url('../fonts/rosssetti/Rossetti W00 Regular/@font-face/96996b95c19ecf8733387b6c0b2311e3.ttf');
 
 }
@@ -112,7 +112,7 @@ ul {
 }
 
 h1, h2{
-  font-family: 'Rossettii', sans-serif;
+  font-family: 'Rossetti', sans-serif;
 }
 ul {
   padding: 0;
