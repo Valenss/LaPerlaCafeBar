@@ -110,6 +110,7 @@ sr.reveal(`.home__data, .home__img,
     .contact__data, .contact__button,
     .footer__content,
     .testimonial__box,
-    iframe`,  {
+    iframe,
+    .contact-information`,  {
     interval: 200
 })

@@ -197,6 +197,9 @@ img {
     border-radius: 0 0 1rem 1rem;
     z-index: var(--z-fixed);
   }
+  .map{
+    max-width: 90%;
+  }
 }
 
 .nav__item {
@@ -453,6 +456,71 @@ img {
   margin-bottom: var(--mb-3);
 }
 
+/* Contact Us Page */
+
+.contact-us-subtitle{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  font-style: italic;
+}
+.form-horizontal {
+  max-width: 400px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+
+}
+
+.form-control, 
+textarea {
+  max-width: 400px;
+  background-color: var(--container-color);
+  color: var(--text-color);
+  letter-spacing: 1px;
+  margin-top: .5rem;
+
+}
+
+input:focus , textarea:focus{ 
+  outline: none !important;
+  box-shadow: 0 0 10px var(--title-color)!important;
+  color: var(--text-color)!important;
+  background-color: var(--container-color)!important;
+  border: 1px solid var(--title-color)!important;
+}
+.send-button {
+  margin-top: 15px;
+  height: 34px;
+  width: 400px;
+  overflow: hidden;
+  transition: all .2s ease-in-out;
+  background-color:var(--first-color)!important ;
+  border: 1px solid var(--first-color)!important ;
+  box-shadow: 0 0 5px var(--title-color)!important;
+
+}
+.fa-paper-plane{
+  color: var(--text-color)!important;
+}
+
+.alt-send-button {
+  width: 400px;
+  height: 34px;
+  transition: all .2s ease-in-out;
+}
+
+.send-text {
+  display: block;
+  margin-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+}
+
+.alt-send-button:hover {
+  transform: translate3d(0px, -36px, 0px);
+}
+
+
 /* -------- Footer ------ */
 
 
@@ -462,7 +530,7 @@ img {
 }
 
 .footer__logo {
-  font-size: var(--h3-font-size);
+  font-size: var(--h2-font-size);
   color: var(--first-color);
   font-weight: var(--font-semi-bold);
 }
@@ -532,7 +600,7 @@ img {
   .reviews {
     margin-top: 10px;
   }
-
+  
 }
 
 
@@ -569,6 +637,7 @@ img {
     width: 100%;
     padding: 10px;
   }
+  
 }
 
 @media screen and (min-width: 768px) {
@@ -615,6 +684,10 @@ img {
   .services__container{
     margin-top: var(--mb-6);
   }
+
+ 
+
+  
 }
 
 @media screen and (min-width: 960px) {
@@ -636,7 +709,11 @@ img {
     padding: 10px;
   }
 
-
+  .events{
+    max-width: 50%;
+    margin: auto;
+  }
+  
 }
 
 /* For tall screens on mobiles y desktop*/
@@ -644,4 +721,5 @@ img {
   .home__container {
     height: 640px;
   }
+  
 }
