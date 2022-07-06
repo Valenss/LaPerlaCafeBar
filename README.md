@@ -1,4 +1,4 @@
-# Hola! Bienvenido a mi proyecto del primer cuatrimestre de UNTREF👋
+# Hola! Bienvenido a mi proyecto del primer cuatrimestre de la Tecnicatura en Desarrollo FullStack de UNTREF👋
 
 ## Tabla de contenido
 
@@ -41,10 +41,9 @@ Realizar y presentar para su evaluación, el primer trabajo práctico integrador
 
 ### Hecho con
 
-- HTML5
-- CSS
+- Semantic HTML5 markup
+- CSS custom properties
 - Flexbox
-- Grid
 - Bootstrap
 - Scroll Reveal JS Library
 
