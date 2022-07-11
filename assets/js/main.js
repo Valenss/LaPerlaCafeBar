@@ -1,6 +1,6 @@
 
 // Menu Show 
-const showMenu = (toggleId, navId, navicon) =>{
+const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
     nav = document.getElementById(navId),
     icon = document.querySelector('#navicon')
@@ -22,8 +22,13 @@ const navLink = document.querySelectorAll('.nav__link')
 
 function linkAction(){
     const navMenu = document.getElementById('nav-menu')
+    icon = document.querySelector('#navicon')
+
     //when we click on each nav__link, we remove the show-menu class
     navMenu.classList.remove('show-menu')
+    icon.classList.toggle('bx-x')
+
+
 }
 navLink.forEach (n => n.addEventListener('click', linkAction))
 

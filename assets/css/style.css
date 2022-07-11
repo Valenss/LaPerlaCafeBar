@@ -240,11 +240,12 @@ img {
   font-size: 1.3rem;
   cursor: pointer;
 
+
 }
 
 .close-toggle{
+  transform: rotate(180deg);
   transition: .5s;
-  transform: rotate(90deg);
 }
 
 /* Show Menu*/
