@@ -1,14 +1,17 @@
 
 // Menu Show 
-const showMenu = (toggleId, navId) =>{
+const showMenu = (toggleId, navId, navicon) =>{
     const toggle = document.getElementById(toggleId),
-    nav = document.getElementById(navId)
+    nav = document.getElementById(navId),
+    icon = document.querySelector('#navicon')
     
     // Validate that variables exist
     if(toggle && nav){
         toggle.addEventListener('click', ()=>{
             // We add the show-menu class to the div tag with the nav__menu class
             nav.classList.toggle('show-menu')
+            toggle.classList.toggle('close-toggle')
+            icon.classList.toggle('bx-x')
         })
     }
 }

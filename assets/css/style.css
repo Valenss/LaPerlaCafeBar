@@ -200,6 +200,12 @@ img {
   .map{
     max-width: 90%;
   }
+
+  .nav{
+    transition: .4s;
+    width: 90%;
+    margin: auto;
+  }
 }
 
 .nav__item {
@@ -233,6 +239,12 @@ img {
 .nav__toggle {
   font-size: 1.3rem;
   cursor: pointer;
+
+}
+
+.close-toggle{
+  transition: .5s;
+  transform: rotate(90deg);
 }
 
 /* Show Menu*/
