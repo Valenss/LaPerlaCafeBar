@@ -605,20 +605,25 @@ input:focus , textarea:focus{
 }
 
 /* Loader */
+.wrapper{
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background-color: var(--body-color);
+  display: grid;
+  place-items: center;
+  transition: opacity .25s, visibility 1s ;
+}
 .spinner {
   margin: 100px auto 0;
   width: 70px;
   text-align: center;
-  height: 75vh;
-  display: flex;
-  align-items: center;
-  background-color: var(--body-color);
 }
 
 .spinner > div {
   width: 18px;
   height: 18px;
-  background-color:var(--container-color);
+  background-color:var(--text-color);
 
   border-radius: 100%;
   display: inline-block;

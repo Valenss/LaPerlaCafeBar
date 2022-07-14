@@ -1,6 +1,6 @@
 // Loader
 const fadeOut = () => {
-    const loadWrapper = document.querySelector('.spinner');
+    const loadWrapper = document.querySelector('.wrapper');
     loadWrapper.classList.add('fade');
 }
 
