@@ -612,6 +612,7 @@ input:focus , textarea:focus{
   height: 75vh;
   display: flex;
   align-items: center;
+  background-color: var(--body-color);
 }
 
 .spinner > div {
