@@ -604,6 +604,21 @@ input:focus , textarea:focus{
   line-height: 1.7rem;
 }
 
+/* Loader */
+.wrapper{
+  position: fixed;
+  inset:0;
+  z-index: 9999;
+  background-color: #FFFFFF;
+  display: grid;
+  place-items: center;
+  transition: opacity .25s, visibility 1s;;
+}
+.fade{
+  opacity: 0;
+  visibility: hidden;
+}
+
 /* -------- Media Queries ------ */
 
 @media (max-width: 340px) {
