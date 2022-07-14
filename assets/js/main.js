@@ -1,10 +1,10 @@
 // Loader
 const fadeOut = () => {
-    const loadWrapper = document.querySelector('.wrapper');
+    const loadWrapper = document.querySelector('.spinner');
     loadWrapper.classList.add('fade');
 }
 
-window.addEventListener('load',fadeOut)
+window.addEventListener('load', fadeOut);
 
 // Menu Show 
 const showMenu = (toggleId, navId) =>{
