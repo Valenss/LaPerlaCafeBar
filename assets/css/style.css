@@ -261,6 +261,9 @@ img {
 /* Change background header*/
 .scroll-header {
   box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  transition: .7s;
 }
 
 /* -------- Scroll Top ------ */
