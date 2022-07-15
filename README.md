@@ -41,7 +41,7 @@ Realizar y presentar para su evaluación, el primer trabajo práctico integrador
 
 ### Links
 
-- Live Site URL: (https://valenss.github.io/LaPerlaCafeBar/)
+- [Live Site URL](https://valenss.github.io/LaPerlaCafeBar/)
 
 ### Hecho con
 
