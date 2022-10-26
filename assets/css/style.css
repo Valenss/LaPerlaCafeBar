@@ -330,10 +330,12 @@ img {
   padding: .75rem 1rem;
   border-radius: .5rem;
   transition: .3s;
+  
 }
 
 .button:hover {
   background-color: var(--first-color-alt);
+  color: #fff;
 }
 
 /* -------- About ------ */
@@ -551,6 +553,11 @@ input:focus , textarea:focus{
   font-size: var(--h2-font-size);
   color: var(--first-color);
   font-weight: var(--font-semi-bold);
+  transition: .4s;
+}
+
+.footer__logo:hover{
+  color: #fff;
 }
 
 .footer__description {
